@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D1E1012EE953FD0044913A /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 22D1E1002EE953FD0044913A /* FirebaseRemoteConfig */; };
+		22D1E1032EE954030044913A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 22D1E1022EE954030044913A /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22BCC9D62EE4E17500152547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BCC9BD2EE4E17300152547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BCC9C42EE4E17300152547;
+			remoteInfo = SengokuQuiz;
+		};
+		22BCC9E02EE4E17500152547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BCC9BD2EE4E17300152547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BCC9C42EE4E17300152547;
+			remoteInfo = SengokuQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BCC9C52EE4E17300152547 /* SengokuQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SengokuQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BCC9D52EE4E17500152547 /* SengokuQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SengokuQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BCC9DF2EE4E17500152547 /* SengokuQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SengokuQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		22D1E1322EEA4ADF0044913A /* Exceptions for "SengokuQuiz" folder in "SengokuQuiz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 22BCC9C42EE4E17300152547 /* SengokuQuiz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		22BCC9C72EE4E17300152547 /* SengokuQuiz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				22D1E1322EEA4ADF0044913A /* Exceptions for "SengokuQuiz" folder in "SengokuQuiz" target */,
+			);
+			path = SengokuQuiz;
+			sourceTree = "<group>";
+		};
+		22BCC9D82EE4E17500152547 /* SengokuQuizTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SengokuQuizTests;
+			sourceTree = "<group>";
+		};
+		22BCC9E22EE4E17500152547 /* SengokuQuizUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SengokuQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BCC9C22EE4E17300152547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D1E1032EE954030044913A /* GoogleMobileAds in Frameworks */,
+				22D1E1012EE953FD0044913A /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9D22EE4E17500152547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9DC2EE4E17500152547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BCC9BC2EE4E17300152547 = {
+			isa = PBXGroup;
+			children = (
+				22BCC9C72EE4E17300152547 /* SengokuQuiz */,
+				22BCC9D82EE4E17500152547 /* SengokuQuizTests */,
+				22BCC9E22EE4E17500152547 /* SengokuQuizUITests */,
+				22D1E0FF2EE953FD0044913A /* Frameworks */,
+				22BCC9C62EE4E17300152547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22BCC9C62EE4E17300152547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BCC9C52EE4E17300152547 /* SengokuQuiz.app */,
+				22BCC9D52EE4E17500152547 /* SengokuQuizTests.xctest */,
+				22BCC9DF2EE4E17500152547 /* SengokuQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D1E0FF2EE953FD0044913A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BCC9C42EE4E17300152547 /* SengokuQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BCC9E92EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuiz" */;
+			buildPhases = (
+				22BCC9C12EE4E17300152547 /* Sources */,
+				22BCC9C22EE4E17300152547 /* Frameworks */,
+				22BCC9C32EE4E17300152547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				22BCC9C72EE4E17300152547 /* SengokuQuiz */,
+			);
+			name = SengokuQuiz;
+			packageProductDependencies = (
+				22D1E1002EE953FD0044913A /* FirebaseRemoteConfig */,
+				22D1E1022EE954030044913A /* GoogleMobileAds */,
+			);
+			productName = SengokuQuiz;
+			productReference = 22BCC9C52EE4E17300152547 /* SengokuQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22BCC9D42EE4E17500152547 /* SengokuQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BCC9EC2EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuizTests" */;
+			buildPhases = (
+				22BCC9D12EE4E17500152547 /* Sources */,
+				22BCC9D22EE4E17500152547 /* Frameworks */,
+				22BCC9D32EE4E17500152547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BCC9D72EE4E17500152547 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22BCC9D82EE4E17500152547 /* SengokuQuizTests */,
+			);
+			name = SengokuQuizTests;
+			packageProductDependencies = (
+			);
+			productName = SengokuQuizTests;
+			productReference = 22BCC9D52EE4E17500152547 /* SengokuQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22BCC9DE2EE4E17500152547 /* SengokuQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BCC9EF2EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuizUITests" */;
+			buildPhases = (
+				22BCC9DB2EE4E17500152547 /* Sources */,
+				22BCC9DC2EE4E17500152547 /* Frameworks */,
+				22BCC9DD2EE4E17500152547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BCC9E12EE4E17500152547 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22BCC9E22EE4E17500152547 /* SengokuQuizUITests */,
+			);
+			name = SengokuQuizUITests;
+			packageProductDependencies = (
+			);
+			productName = SengokuQuizUITests;
+			productReference = 22BCC9DF2EE4E17500152547 /* SengokuQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BCC9BD2EE4E17300152547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					22BCC9C42EE4E17300152547 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					22BCC9D42EE4E17500152547 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 22BCC9C42EE4E17300152547;
+					};
+					22BCC9DE2EE4E17500152547 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 22BCC9C42EE4E17300152547;
+					};
+				};
+			};
+			buildConfigurationList = 22BCC9C02EE4E17300152547 /* Build configuration list for PBXProject "SengokuQuiz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BCC9BC2EE4E17300152547;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				22BCC9F22EE4F8DF00152547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				22BCC9F32EE4F93600152547 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 22BCC9C62EE4E17300152547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BCC9C42EE4E17300152547 /* SengokuQuiz */,
+				22BCC9D42EE4E17500152547 /* SengokuQuizTests */,
+				22BCC9DE2EE4E17500152547 /* SengokuQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BCC9C32EE4E17300152547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9D32EE4E17500152547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9DD2EE4E17500152547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BCC9C12EE4E17300152547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9D12EE4E17500152547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BCC9DB2EE4E17500152547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22BCC9D72EE4E17500152547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BCC9C42EE4E17300152547 /* SengokuQuiz */;
+			targetProxy = 22BCC9D62EE4E17500152547 /* PBXContainerItemProxy */;
+		};
+		22BCC9E12EE4E17500152547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BCC9C42EE4E17300152547 /* SengokuQuiz */;
+			targetProxy = 22BCC9E02EE4E17500152547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22BCC9E72EE4E17500152547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22BCC9E82EE4E17500152547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BCC9EA2EE4E17500152547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SengokuQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 728MNT2Y45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SengokuQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "戦国時代クイズ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "より適切な広告を表示するために、トラッキングの許可をお願いします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SengokuQuiz;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22BCC9EB2EE4E17500152547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SengokuQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 728MNT2Y45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SengokuQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "戦国時代クイズ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "より適切な広告を表示するために、トラッキングの許可をお願いします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SengokuQuiz;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		22BCC9ED2EE4E17500152547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SengokuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SengokuQuiz";
+			};
+			name = Debug;
+		};
+		22BCC9EE2EE4E17500152547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SengokuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SengokuQuiz";
+			};
+			name = Release;
+		};
+		22BCC9F02EE4E17500152547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SengokuQuiz;
+			};
+			name = Debug;
+		};
+		22BCC9F12EE4E17500152547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 728MNT2Y45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusaku.SengokuQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SengokuQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BCC9C02EE4E17300152547 /* Build configuration list for PBXProject "SengokuQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BCC9E72EE4E17500152547 /* Debug */,
+				22BCC9E82EE4E17500152547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BCC9E92EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BCC9EA2EE4E17500152547 /* Debug */,
+				22BCC9EB2EE4E17500152547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BCC9EC2EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BCC9ED2EE4E17500152547 /* Debug */,
+				22BCC9EE2EE4E17500152547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BCC9EF2EE4E17500152547 /* Build configuration list for PBXNativeTarget "SengokuQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BCC9F02EE4E17500152547 /* Debug */,
+				22BCC9F12EE4E17500152547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22BCC9F22EE4F8DF00152547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		22BCC9F32EE4F93600152547 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22D1E1002EE953FD0044913A /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BCC9F22EE4F8DF00152547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		22D1E1022EE954030044913A /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BCC9F32EE4F93600152547 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 22BCC9BD2EE4E17300152547 /* Project object */;
+}

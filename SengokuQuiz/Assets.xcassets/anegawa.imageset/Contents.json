@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Whisk_669f5b88cff252998344e7f225ec5575dr.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
